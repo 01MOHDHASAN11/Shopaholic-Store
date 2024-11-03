@@ -1,0 +1,121 @@
+footer{
+    position: relative;
+    top: 60px;
+    background-color:#d6d6d6;
+}
+
+footer .footer_container{
+    color:#0f0d0d;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items:flex-start;
+    position: relative;
+    top: 10px;
+    height: 25vh;
+}
+footer.header.h2{
+    margin-top: 20px;
+}
+
+footer .footer_container .footr_details_one{
+    /* font-size: 24px; */
+    /* text-align: left; */
+    margin-top: 35px;
+    font-size: 100px;
+    letter-spacing: .5px;
+    text-align: left;
+    cursor: pointer;
+    
+    
+}
+
+footer .footer_container .footr_details_1:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    
+}
+
+footer .footr_details_1{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    /* border: .5px solid black; */
+    border-radius: 40px;
+    height: 100px;
+
+      
+}
+
+footer .footr_details_2{
+    border-radius: 40px;
+    height:100px;
+    background-color:#3b5998;
+    
+}
+
+
+
+
+footer .footer_container .footr_details_2:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    
+}
+
+
+footer .footr_details_3{
+    border-radius: 40px;
+    height:100px;
+    background-color: #0072b1;
+    
+}
+
+
+footer .footer_container .footr_details_3:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    
+}
+
+
+
+footer .lastdetails{
+    background-color:#20b2aa;
+    height:30vh;
+}
+
+footer img{
+    display: block;
+    width: 150px;
+    height:100px;
+    margin: 50px auto auto auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: .3px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+@media (max-width:700px){
+    .footer_container .forres{
+        display: none;
+    }
+   
+}
+@media (max-width:500px){
+    .footer_container .forres{
+        display: none;
+    }
+}
